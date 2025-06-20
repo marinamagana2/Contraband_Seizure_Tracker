@@ -38,3 +38,43 @@ Run this in your terminal:
 python app.py
 Then open your browser and go to:
 http://127.0.0.1:8050
+
+
+## 📁 What’s inside
+
+| File | What it does |
+| --- | --- |
+| `app.py` | Runs the whole dashboard |
+| `cbp_drug_seizures_*.csv` | Drug seizure data by fiscal year |
+| `cbp_weapons_seizures_*.csv` | Weapons seizure data by fiscal year |
+| `requirements.txt` | Python packages used in this project |
+
+---
+
+## 🌱 What I learned
+
+- How to merge and clean messy real-world datasets  
+- How to use Plotly’s `scatter_mapbox()` for spatial data  
+- How to build Dash apps with tabs, sliders, and filters  
+- How to design a visual that’s both clean and interactive  
+
+---
+
+## 🔮 Future ideas
+
+Here’s what I might add later:
+
+- 📊 A side-by-side chart view for trends over time  
+- ⏳ Timeline animation of seizures by year  
+- 🧠 Hover popups with detailed stats on each location  
+- ☁️ Deploy the whole thing online (Render, Heroku, etc.)  
+
+---
+
+## 🧰 Tech used
+
+- Dash  
+- Plotly Express  
+- Pandas  
+- Python 3.10+
+
