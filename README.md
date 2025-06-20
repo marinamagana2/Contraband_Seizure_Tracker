@@ -4,8 +4,6 @@ This is a data dashboard I built to explore drug and weapon seizures along U.S. 
 
 It’s interactive, visual, and helps highlight patterns over time—whether you’re curious about border trends or just want to see how data can tell a story.
 
-![Preview of CBP Contraband Dashboard](https://github.com/yourusername/Contraband_Seizure_Tracker/assets/yourimagehash/example.png)
-
 
 ---
 
@@ -19,28 +17,52 @@ The dashboard lets you:
 
 Built with [Dash](https://dash.plotly.com/) + [Plotly Express](https://plotly.com/python/plotly-express/) — no login or uploading required. Just run it locally and explore.
 
-## 🛠️ How to run it
-Clone this repo
-You can either:
+## 🚀 How to Run This Dashboard
 
-Click the green “Code” button and “Download ZIP”, then unzip it
-or
+> You don’t need anything fancy to try this — just Python and a few packages.
 
-Use Git:
-git clone https://github.com/marinamagana2/Contraband_Seizure_Tracker.git
+### 1. Clone or download this repo
+Click the green **Code** button and choose **Download ZIP**, or run:
+
+```bash
+git clone https://github.com/yourusername/Contraband_Seizure_Tracker.git
 cd Contraband_Seizure_Tracker
+```
 
-Install dependencies
-Make sure you have Python 3.10+ installed. Then run:
+### 2. Set up your environment (recommended)
+
+```bash
+python3 -m venv venv
+source venv/bin/activate  # On Windows, use venv\Scripts\activate
+```
+
+### 3. Install the requirements
+
+```bash
 pip install -r requirements.txt
-Or install manually:
-pip install dash pandas plotly
+```
 
-Launch it
-Run this in your terminal:
+### 4. Run the app!
+
+```bash
 python app.py
-Then open your browser and go to:
+```
+
+Once it’s running, open your browser and go to:
+```
 http://127.0.0.1:8050
+```
+
+You'll see an interactive dashboard where you can:
+- Explore drug and weapon seizures
+- Switch between years using a slider
+- Compare regions
+- See both drug and weapon data on the map at the same time
+
+---
+
+💡 *No accounts, no uploading, no fuss. Just run it locally and explore!*
+
 
 
 ## 📁 What’s inside
