@@ -4,6 +4,9 @@ This is a data dashboard I built to explore drug and weapon seizures along U.S. 
 
 It’s interactive, visual, and helps highlight patterns over time—whether you’re curious about border trends or just want to see how data can tell a story.
 
+![Preview of CBP Contraband Dashboard](https://github.com/yourusername/Contraband_Seizure_Tracker/assets/yourimagehash/example.png)
+
+
 ---
 
 ## 🌎 What it does
@@ -62,7 +65,7 @@ http://127.0.0.1:8050
 
 ## 🔮 Future ideas
 
-Here’s what I might add later:
+What I might add later:
 
 - 📊 A side-by-side chart view for trends over time  
 - ⏳ Timeline animation of seizures by year  
