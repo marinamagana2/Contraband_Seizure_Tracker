@@ -103,3 +103,12 @@ What I might add later:
 - Pandas  
 - Python 3.10+
 
+## 📊 Data Sources
+
+All data in this dashboard comes from official U.S. Customs and Border Protection (CBP) reports. Specifically:
+
+- [Nationwide Drug Seizures](https://www.cbp.gov/newsroom/stats/drug-seizures)
+- [Weapons and Ammunition Seizures](https://www.cbp.gov/newsroom/stats/weapons-ammunition-seizures)
+
+Each dataset includes seizure records by year, location, and quantity, spanning fiscal years 2019 through 2025.
+
